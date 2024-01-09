@@ -1,0 +1,38 @@
+{
+  "type": "module",
+  "name": "signer",
+  "version": "0.0.0",
+  "private": true,
+  "homepage": "https://demasto.github.io/signer",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@ingeneric/pdf-lib": "^1.17.2-beta.0",
+    "@lapo/asn1js": "^1.2.4",
+    "@pdf-lib/standard-fonts": "^1.0.0",
+    "@pdftron/pdfnet-node": "^10.5.0",
+    "asn1js": "^3.0.5",
+    "buffer": "^6.0.3",
+    "draggable-resizable-vue3": "^1.0.94-beta",
+    "file-to-array-buffer": "^1.0.0",
+    "js-encoding-utils": "^0.7.3",
+    "node-signpdf": "^3.0.0",
+    "openssl-wrapper": "^0.3.4",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^4.0.269",
+    "vue": "^3.3.13",
+    "vue-plugin-load-script": "^2.1.1",
+    "vue-router": "^4.2.5",
+    "webpack": "^5.89.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "gh-pages": "^6.1.1",
+    "vite": "5.0.10"
+  }
+}
